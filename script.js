@@ -1,5 +1,5 @@
 //your JS code here. If required.
-<script>
+
         const line = document.getElementById("line")
 
         setInterval(rotateLine, 20);
@@ -10,4 +10,4 @@
             line.style.transform = `translate(${-50}%,${-50}%) rotate(${angle}deg)`;
 
         }
-    </script>
+  
